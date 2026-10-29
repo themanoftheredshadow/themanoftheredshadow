@@ -21,8 +21,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
-      - uses: actions/setup-python@v5
+      - name: Configurar Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # 1. Sincronizamos primero con el servidor con el workspace limpio
+          git pull origin main --rebase
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
@@ -32,16 +44,16 @@ jobs:
           GH_USER: ${{ github.repository_owner }}
         run: python scripts/update_profile.py
 
-      - name: Guardar cambios
+      - name: Guardar y subir cambios
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          
-          # Sincronizamos primero con el servidor para evitar el error "fetch first"
-          git fetch origin main
-          git rebase origin/main
-
-          # Añadimos, hacemos commit si hay cambios y subimos
+          # 2. Añadimos los archivos modificados por Python
           git add README.md assets/stats.svg assets/languages.svg
-          git diff --cached --quiet || git commit -m "chore: actualizar perfil automáticamente"
+
+          if git diff --cached --quiet; then
+            echo "No hay cambios que guardar."
+            exit 0
+          fi
+
+          # 3. Hacemos commit y subimos directamente
+          git commit -m "chore: actualizar perfil automáticamente"
           git push origin HEAD:main

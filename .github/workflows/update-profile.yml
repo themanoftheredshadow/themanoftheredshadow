@@ -36,7 +36,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Sincronizamos primero con el servidor para evitar el error "fetch first"
+          git fetch origin main
+          git rebase origin/main
+
+          # Añadimos, hacemos commit si hay cambios y subimos
           git add README.md assets/stats.svg assets/languages.svg
           git diff --cached --quiet || git commit -m "chore: actualizar perfil automáticamente"
-          git pull --rebase origin main
           git push origin HEAD:main

@@ -29,9 +29,9 @@ SESSION = [
     ]),
     ("cmd", f"~/{DIR}", "cat about.md", [
         [("# about.md", "dim")],
-        [("> Hola, soy ", "fg"), ("<Tu Nombre>", "yellow"), (".", "fg")],
-        [("> ", "fg"), ("<Tu rol / lo que haces>", "yellow")],
-        [("> ", "fg"), ("<Una frase sobre lo que te apasiona>", "yellow")],
+        [("> Hola, soy ", "fg"), ("<adar>", "yellow"), (".", "fg")],
+        [("> ", "fg"), ("<Cibersegurata>", "yellow")],
+        [("> ", "fg"), ("<Tu vida depende de los riesgos que estes dispuesto a tomar>", "yellow")],
     ]),
     ("cmd", f"~/{DIR}", "./status.sh", [
         [("[ ", "dim"), ("OK", "green"), (" ] kernel  -> ", "fg"), ("redshadow 1.0", "red")],

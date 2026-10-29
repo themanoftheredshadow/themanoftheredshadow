@@ -35,7 +35,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull origin main --rebase --autostash
+          git fetch origin main
+          git rebase origin/main
           git add README.md assets/stats.svg assets/languages.svg
           git diff --cached --quiet || git commit -m "chore: actualizar perfil automáticamente"
           git push origin main

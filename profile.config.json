@@ -1,0 +1,19 @@
+{
+  "username": "themandoftheredshadow",
+  "projects": {
+    "max": 6,
+    "pin": [],
+    "hide": [],
+    "descriptions": {},
+    "include_forks": false,
+    "include_archived": false
+  },
+  "skills": {
+    "max": 12,
+    "min_percent": 1.0,
+    "use_topics": true,
+    "max_topics": 6,
+    "hide": [],
+    "extra": []
+  }
+}

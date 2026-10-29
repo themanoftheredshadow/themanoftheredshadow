@@ -17,13 +17,19 @@ Una o dos frases claras sobre quién eres, a qué te dedicas y qué tipo de prob
 ### `$ ls ~/skills`
 
 <!--SKILLS:START-->
-_Se genera automáticamente a partir de tus repositorios._
+<p>
+  <img src="https://img.shields.io/badge/Python-0b0b0f?style=flat-square&logo=python&logoColor=4B8BBE" alt="Python" />
+  <img src="https://img.shields.io/badge/JavaScript-0b0b0f?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+</p>
 <!--SKILLS:END-->
 
 ### `$ ls ~/projects`
 
 <!--PROJECTS:START-->
-_Se genera automáticamente a partir de tus repositorios._
+| Proyecto | Descripción | Lenguaje | ★ |
+|---|---|---|---|
+| [**previwerpdf**](https://github.com/themanoftheredshadow/previwerpdf) | Sin descripción todavía | JavaScript | 0 |
+| [**Transparent**](https://github.com/themanoftheredshadow/Transparent) | Sin descripción todavía | Python | 1 |
 <!--PROJECTS:END-->
 
 ### `$ git stats`

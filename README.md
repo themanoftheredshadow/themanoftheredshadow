@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/34156506/README.md)<div align="center">
+[README.md](https://github.com/user-attachments/files/34156911/README.md)<div align="center">
 
 <img src="./assets/terminal.svg" alt="themandoftheredshadow - terminal" width="100%" />
 

@@ -1,7 +1,6 @@
 <div align="center">
 
-<img src="./assets/terminal.svg" alt="themandoftheredshadow - terminal" width="100%" />
-
+<img src="./assets/terminal.svg?v=1" alt="themandoftheredshadow terminal" width="100%" />
 </div>
 
 ---

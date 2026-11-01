@@ -29,7 +29,7 @@ Una o dos frases claras sobre quién eres, a qué te dedicas y qué tipo de prob
 | Proyecto | Descripción | Lenguaje | ★ |
 |---|---|---|---|
 | [**f-devops-lab**](https://github.com/themanoftheredshadow/f-devops-lab) | Sin descripción todavía | Dockerfile | 0 |
-| [**previwerpdf**](https://github.com/themanoftheredshadow/previwerpdf) | Sin descripción todavía | JavaScript | 0 |
+| [**previwerpdf**](https://github.com/themanoftheredshadow/previwerpdf) | Extensión de navegador | JavaScript | 0 |
 | [**Transparent**](https://github.com/themanoftheredshadow/Transparent) | Sin descripción todavía | Python | 1 |
 <!--PROJECTS:END-->
 

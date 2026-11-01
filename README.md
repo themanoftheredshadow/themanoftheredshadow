@@ -19,6 +19,7 @@ Una o dos frases claras sobre quién eres, a qué te dedicas y qué tipo de prob
 <p>
   <img src="https://img.shields.io/badge/Python-0b0b0f?style=flat-square&logo=python&logoColor=4B8BBE" alt="Python" />
   <img src="https://img.shields.io/badge/JavaScript-0b0b0f?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Dockerfile-0b0b0f?style=flat-square&logo=docker&logoColor=2496ED" alt="Dockerfile" />
 </p>
 <!--SKILLS:END-->
 
@@ -27,9 +28,9 @@ Una o dos frases claras sobre quién eres, a qué te dedicas y qué tipo de prob
 <!--PROJECTS:START-->
 | Proyecto | Descripción | Lenguaje | ★ |
 |---|---|---|---|
-| [**f-devops-lab**](https://github.com/themanoftheredshadow/f-devops-lab) | Laboratorio Docker & Administración | Python | 0 |
-| [**previwerpdf**](https://github.com/themanoftheredshadow/previwerpdf) | Extensión de navegador | JavaScript | 0 |
-| [**Transparent**](https://github.com/themanoftheredshadow/Transparent) | Herramienta Python3 & Discord Dev | Python | 1 |
+| [**f-devops-lab**](https://github.com/themanoftheredshadow/f-devops-lab) | Sin descripción todavía | Dockerfile | 0 |
+| [**previwerpdf**](https://github.com/themanoftheredshadow/previwerpdf) | Sin descripción todavía | JavaScript | 0 |
+| [**Transparent**](https://github.com/themanoftheredshadow/Transparent) | Sin descripción todavía | Python | 1 |
 <!--PROJECTS:END-->
 
 ### `$ git stats`

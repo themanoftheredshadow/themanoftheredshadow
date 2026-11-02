@@ -4,7 +4,11 @@
     "max": 6,
     "pin": [],
     "hide": [],
-    "descriptions": {},
+    "descriptions": {
+      "previwerpdf": "Extensión de navegador.",
+      "f-devops-lab": "Laboratorio basico administración, DevOps junto a Docker",
+      "Transparent": "Programa KeyLogger python3"
+    },
     "include_forks": false,
     "include_archived": false
   },

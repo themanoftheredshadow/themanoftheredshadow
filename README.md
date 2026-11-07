@@ -8,8 +8,8 @@
 ### `$ cat about.md`
 
 - **Ciberseguridad**
-- 🌱 Aprendiendo: **<tecnología>**
-- 💬 Pregúntame sobre: **<temas>**
+- **DevOps**
+- **Hardware**
 
 ### `$ ls ~/skills`
 

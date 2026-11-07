@@ -7,9 +7,9 @@
 
 ### `$ cat about.md`
 
--**[Ciberseguridad]**
--**[DevOps]**
--**[Hardware]**
+- 🔭 Trabajando en: **<proyecto o área>**
+- 🌱 Aprendiendo: **<tecnología>**
+- 💬 Pregúntame sobre: **<temas>**
 
 ### `$ ls ~/skills`
 

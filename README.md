@@ -7,9 +7,9 @@
 
 ### `$ cat about.md`
 
-**[Ciberseguridad]**
-**[DevOps]**
-**[Hardware]**
+-**[Ciberseguridad]**
+-**[DevOps]**
+-**[Hardware]**
 
 ### `$ ls ~/skills`
 

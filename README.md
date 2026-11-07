@@ -26,7 +26,7 @@
 <!--PROJECTS:START-->
 | Proyecto | Descripción | Lenguaje | ★ |
 |---|---|---|---|
-| [**picoducky-2w**](https://github.com/themanoftheredshadow/picoducky-2w) | Sin descripción todavía | - | 1 |
+| [**picoducky-2w**](https://github.com/themanoftheredshadow/picoducky-2w) | Proyecto Pico Ducky 2 W | - | 1 |
 | [**f-devops-lab**](https://github.com/themanoftheredshadow/f-devops-lab) | Laboratorio basico administración, DevOps junto a Docker | Dockerfile | 0 |
 | [**previwerpdf**](https://github.com/themanoftheredshadow/previwerpdf) | Extensión de navegador. | JavaScript | 0 |
 | [**Transparent**](https://github.com/themanoftheredshadow/Transparent) | Programa KeyLogger python3 | Python | 1 |

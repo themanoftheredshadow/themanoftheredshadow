@@ -7,11 +7,9 @@
 
 ### `$ cat about.md`
 
-Una o dos frases claras sobre quién eres, a qué te dedicas y qué tipo de problemas te gusta resolver.
-
-- 🔭 Trabajando en: **[hola]**
-- 🌱 Aprendiendo: **[tecnología]**
-- 💬 Pregúntame sobre: **[temas]**
+**[Ciberseguridad]**
+**[DevOps]**
+**[Hardware]**
 
 ### `$ ls ~/skills`
 

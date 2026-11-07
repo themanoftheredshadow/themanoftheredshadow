@@ -7,7 +7,7 @@
 
 ### `$ cat about.md`
 
-- 🔭 Trabajando en: **<proyecto o área>**
+- **<Ciberseguridad>**
 - 🌱 Aprendiendo: **<tecnología>**
 - 💬 Pregúntame sobre: **<temas>**
 

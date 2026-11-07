@@ -7,7 +7,7 @@
 
 ### `$ cat about.md`
 
-- **<Ciberseguridad>**
+- **Ciberseguridad**
 - 🌱 Aprendiendo: **<tecnología>**
 - 💬 Pregúntame sobre: **<temas>**
 
